@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.streamlit/
+output_report.md
+.DS_Store
+Thumbs.db
+.langchain.db
