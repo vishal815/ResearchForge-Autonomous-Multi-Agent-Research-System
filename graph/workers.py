@@ -7,7 +7,8 @@
 #
 # All 3 are called inside workers_node() one after another.
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from tools.search_tool import search_web
 from tools.file_system import write_file, read_file
 from graph.state import ResearchState
@@ -15,7 +16,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.4)
+# llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.4)
+llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.4)
 
 
 # ── Agent 1: Search ───────────────────────────────────────────────────────────

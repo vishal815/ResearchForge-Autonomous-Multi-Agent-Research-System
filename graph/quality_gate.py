@@ -5,7 +5,8 @@
 # This is what makes the system self-correcting.
 # should_retry() is the router function LangGraph uses to decide next step.
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from graph.state import ResearchState
 from dotenv import load_dotenv
 import re
@@ -26,7 +27,8 @@ def quality_gate_node(state: ResearchState) -> ResearchState:
         print("[Quality Gate] No report found. Score = 0")
         return {**state, "quality_score": 0.0}
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+    # llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.4)
 
     prompt = f"""You are a strict research quality reviewer.
 

@@ -9,7 +9,8 @@
 #
 # Output: final_report (markdown string) saved in state
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from tools.file_system import read_all_files
 from graph.state import ResearchState
 from dotenv import load_dotenv
@@ -66,7 +67,8 @@ Write in a professional, factual tone.
 Use specific data and numbers from the research materials wherever possible.
 Do NOT make up facts."""
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
+    # llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
+    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.4)
     report = llm.invoke(prompt).content
 
     log = state.get("status_log", [])

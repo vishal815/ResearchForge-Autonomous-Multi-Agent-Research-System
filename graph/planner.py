@@ -6,7 +6,8 @@
 #   Input:  "Research impact of AI on healthcare"
 #   Output: 3 todos assigned to search_agent, analysis_agent, examples_agent
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from graph.state import ResearchState
 from dotenv import load_dotenv
 
@@ -46,7 +47,8 @@ def planner_node(state: ResearchState) -> ResearchState:
 
     user_query = state["user_query"]
 
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
+    # llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
+    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.4)
 
     prompt = f"""You are a research planning agent.
 
