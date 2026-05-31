@@ -1,8 +1,19 @@
 # 🔬 ResearchForge
+
+<img width="1536" height="1024" alt="ChatGPT Image May 31, 2026, 03_12_43 AM" src="https://github.com/user-attachments/assets/a5fe5c25-b012-4015-beb3-7c4914cc4d5b" />
+
 ### Autonomous Multi-Agent Research System · Powered by LangGraph + Gemini + Tavily
 
 > **Give it a topic. Get a full research report.**
 > ResearchForge uses a team of AI agents that plan, search, analyse, find examples, write, and self-check — all automatically.
+
+### 🔗 Open Live Application
+
+**👉 https://huggingface.co/spaces/Visal9252/Autonomous_Multi-Agent_Research_System**
+
+No installation required. Just enter a research topic and watch the AI agents work.
+
+---
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-latest-purple)](https://langchain-ai.github.io/langgraph/)
@@ -23,7 +34,7 @@
 7. [Installation & Setup](#-installation--setup)
 8. [Running the Project](#-running-the-project)
 9. [Download Report as PDF](#-download-report-as-pdf)
-10. [Running project demo Video](#-screenshots)
+10. [Running project demo Video](#-output-demo-video-of-project)
 11. [Concepts Covered](#-concepts-covered)
 12. [Troubleshooting](#-troubleshooting)
 13. [Contributing](#-contributing)
@@ -613,9 +624,13 @@ The PDF download button appears automatically in the UI after a report is genera
 
 ---
 
-## 🎬 Demo
+## 🎬 Output Demo Video of Project
 
-![ResearchForge Demo]()
+![ResearchForge Demo](
+
+https://github.com/user-attachments/assets/f34f0e95-37ac-49f8-8243-ed7055c4b31d
+
+)
 
 ### What the demo shows
 
