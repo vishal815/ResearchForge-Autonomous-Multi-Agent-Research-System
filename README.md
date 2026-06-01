@@ -444,7 +444,7 @@ llm = HuggingFaceHub(
 
 ---
 
-## ⚙️ Installation & Setup
+### ⚙️ Installation & Setup
 
 ### Prerequisites
 - Python 3.11 or higher → [Download](https://python.org/downloads)
@@ -456,7 +456,7 @@ llm = HuggingFaceHub(
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/researchforge.git
+git clone https://github.com/vishal815/ResearchForge-Autonomous-Multi-Agent-Research-System.git
 cd researchforge
 ```
 
@@ -739,8 +739,9 @@ MIT License — free to use, modify, and distribute.
 <div align="center">
 
 **Keep Learing and keep Growing.**
-**Vishal Lazurs**
+
 
 *If this helped you learn something, give it a ⭐ on GitHub!*
+**Vishal Lazurs**
 
 </div>
