@@ -68,21 +68,20 @@ ResearchForge is a **multi-agent AI research system** that takes one research qu
 ---
 ## 📘 Free GenAI Interview Guide
 
-While building ResearchForge, I documented the key concepts, interview questions, and practical patterns used throughout this project.
+While building ResearchForge, I documented the key concepts, interview questions, and design decisions behind this project into a concise study guide.
 
-### Inside the Guide
+### Inside the PDF
 
-✅ 62 Curated Interview Questions
-✅ Generative AI & LLM Fundamentals
-✅ LangChain & LangGraph
-✅ Agentic AI Concepts
-✅ ResearchForge Architecture Deep Dive
-✅ Quick Revision Notes
+- 62 Interview Questions
+- Generative AI & LLMs
+- LangChain & LangGraph
+- Agentic AI Concepts
+- ResearchForge Architecture Walkthrough
+- Quick Revision Notes
 
-📄 **[Download the Free PDF Guide](docs/GenAI_Interview_Prep.pdf)**
+📄 **[Download the Guide](docs/GenAI_Interview_Prep.pdf)**
 
-Whether you're preparing for AI Engineer, GenAI, or LLM Application Developer interviews, this guide helps connect theory with the real implementation used in ResearchForge.
-
+Whether you're preparing for AI Engineer, GenAI, or LLM application development roles, this guide helps connect interview theory with a real-world multi-agent project.
 ---
 ## ⚡ How It Works — Real Example
 
