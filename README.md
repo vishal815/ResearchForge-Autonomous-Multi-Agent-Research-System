@@ -26,18 +26,18 @@ No installation required. Just enter a research topic and watch the AI agents wo
 ## 📌 Table of Contents
 
 1. [What is ResearchForge?](#-what-is-researchforge)
-2. [Free GenAI Interview Guide (Download PDF)](#-free-genai-interview-guide)
-3. [How It Works — Real Example](#-how-it-works--real-example)
-4. [Core Concepts Explained](#-core-concepts-explained)
-5. [Architecture](#-architecture)
-6. [Folder Structure](#-folder-structure)
-7. [Getting API Keys (Free)](#-getting-api-keys-free)
-8. [Installation & Setup](#-installation--setup)
-9. [Running the Project](#-running-the-project)
-10. [Download Report as PDF](#-download-report-as-pdf)
-11. [Running project demo Video](#-output-demo-video-of-project)
-12. [Concepts Covered](#-concepts-covered)
-13. [Troubleshooting](#-troubleshooting)
+2. [How It Works — Real Example](#-how-it-works--real-example)
+3. [Core Concepts Explained](#-core-concepts-explained)
+4. [Architecture](#-architecture)
+5. [Folder Structure](#-folder-structure)
+6. [Getting API Keys (Free)](#-getting-api-keys-free)
+7. [Installation & Setup](#-installation--setup)
+8. [Running the Project](#-running-the-project)
+9.  [Download Report as PDF](#-download-report-as-pdf)
+10. [Running project demo Video](#-output-demo-video-of-project)
+11. [Concepts Covered](#-concepts-covered)
+12. [Troubleshooting](#-troubleshooting)
+13. [Free GenAI Interview Guide (Download PDF)](#-free-genai-interview-guide)
 14. [Contributing](#-contributing)
 
 ---
@@ -65,24 +65,7 @@ ResearchForge is a **multi-agent AI research system** that takes one research qu
 | 🧑‍💻 **Developers** | Learn LangGraph, multi-agent systems, and agentic AI patterns |
 | 🏢 **Interns / Freshers** | Portfolio project that demonstrates real AI engineering skills |
 
----
-## 📘 Free GenAI Interview Guide
 
-While building ResearchForge, I documented the key concepts, interview questions, and design decisions behind this project into a concise study guide.
-
-### Inside the PDF
-
-- 62 Interview Questions
-- Generative AI & LLMs
-- LangChain & LangGraph
-- Agentic AI Concepts
-- ResearchForge Architecture Walkthrough
-- Quick Revision Notes
-
-📄 **[Download the Guide](docs/GenAI_Interview_Prep.pdf)**
- **Note:** GitHub's PDF preview may occasionally show a rendering error. If that happens, simply download the PDF — it opens correctly after downloading.
-
-Whether you're preparing for AI Engineer, GenAI, or LLM application development roles, this guide helps connect interview theory with a real-world multi-agent project.
 ---
 ## ⚡ How It Works — Real Example
 
@@ -722,6 +705,27 @@ streamlit run ui/app.py
 
 ### `GOOGLE_API_KEY` not loading
 Check that your `.env` file is in the root of the project (same folder as `main.py`), not inside `graph/` or any subfolder.
+
+---
+## 📘 Free GenAI Interview Guide
+
+While building ResearchForge, I documented the key concepts, interview questions, and design decisions behind this project into a concise study guide.
+
+Whether you're preparing for AI Engineer, GenAI, or LLM application development roles, this guide helps connect interview theory with a real-world multi-agent project.
+
+### Inside the PDF
+
+- 62 Interview Questions
+- Generative AI & LLMs
+- LangChain & LangGraph
+- Agentic AI Concepts
+- ResearchForge Architecture Walkthrough
+- Quick Revision Notes
+
+📄 **[Download the pdf](docs/GenAI_Interview_Prep.pdf)**
+
+ *Note: GitHub's PDF preview may occasionally show a rendering error. If that happens, simply download the PDF — it opens correctly after downloading.
+
 
 ---
 
