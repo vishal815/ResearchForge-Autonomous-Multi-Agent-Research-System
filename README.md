@@ -73,15 +73,10 @@ While building ResearchForge, I documented the key concepts, interview questions
 ### Inside the Guide
 
 ✅ 62 Curated Interview Questions
-
 ✅ Generative AI & LLM Fundamentals
-
 ✅ LangChain & LangGraph
-
 ✅ Agentic AI Concepts
-
 ✅ ResearchForge Architecture Deep Dive
-
 ✅ Quick Revision Notes
 
 📄 **[Download the Free PDF Guide](docs/GenAI_Interview_Prep.pdf)**
