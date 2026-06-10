@@ -80,6 +80,7 @@ While building ResearchForge, I documented the key concepts, interview questions
 - Quick Revision Notes
 
 📄 **[Download the Guide](docs/GenAI_Interview_Prep.pdf)**
+ **Note:** GitHub's PDF preview may occasionally show a rendering error. If that happens, simply download the PDF — it opens correctly after downloading.
 
 Whether you're preparing for AI Engineer, GenAI, or LLM application development roles, this guide helps connect interview theory with a real-world multi-agent project.
 ---
