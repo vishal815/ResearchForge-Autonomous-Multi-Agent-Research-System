@@ -2,7 +2,7 @@
 
 <img width="1536" height="1024" alt="ChatGPT Image May 31, 2026, 03_12_43 AM" src="https://github.com/user-attachments/assets/a5fe5c25-b012-4015-beb3-7c4914cc4d5b" />
 
-### Autonomous Multi-Agent Research System · Powered by LangGraph + Gemini + Tavily
+### Autonomous Multi-Agent Research System · Powered by LangGraph + Gemini/Groq + Tavily
 
 > **Give it a topic. Get a full research report.**
 > ResearchForge uses a team of AI agents that plan, search, analyse, find examples, write, and self-check — all automatically.
@@ -26,18 +26,19 @@ No installation required. Just enter a research topic and watch the AI agents wo
 ## 📌 Table of Contents
 
 1. [What is ResearchForge?](#-what-is-researchforge)
-2. [How It Works — Real Example](#-how-it-works--real-example)
-3. [Core Concepts Explained](#-core-concepts-explained)
-4. [Architecture](#-architecture)
-5. [Folder Structure](#-folder-structure)
-6. [Getting API Keys (Free)](#-getting-api-keys-free)
-7. [Installation & Setup](#-installation--setup)
-8. [Running the Project](#-running-the-project)
-9. [Download Report as PDF](#-download-report-as-pdf)
-10. [Running project demo Video](#-output-demo-video-of-project)
-11. [Concepts Covered](#-concepts-covered)
-12. [Troubleshooting](#-troubleshooting)
-13. [Contributing](#-contributing)
+2. [Free GenAI Interview Guide (Download PDF)](#-free-genai-interview-guide)
+3. [How It Works — Real Example](#-how-it-works--real-example)
+4. [Core Concepts Explained](#-core-concepts-explained)
+5. [Architecture](#-architecture)
+6. [Folder Structure](#-folder-structure)
+7. [Getting API Keys (Free)](#-getting-api-keys-free)
+8. [Installation & Setup](#-installation--setup)
+9. [Running the Project](#-running-the-project)
+10. [Download Report as PDF](#-download-report-as-pdf)
+11. [Running project demo Video](#-output-demo-video-of-project)
+12. [Concepts Covered](#-concepts-covered)
+13. [Troubleshooting](#-troubleshooting)
+14. [Contributing](#-contributing)
 
 ---
 
@@ -65,7 +66,29 @@ ResearchForge is a **multi-agent AI research system** that takes one research qu
 | 🏢 **Interns / Freshers** | Portfolio project that demonstrates real AI engineering skills |
 
 ---
+## 📘 Free GenAI Interview Guide
 
+While building ResearchForge, I documented the key concepts, interview questions, and practical patterns used throughout this project.
+
+### Inside the Guide
+
+✅ 62 Curated Interview Questions
+
+✅ Generative AI & LLM Fundamentals
+
+✅ LangChain & LangGraph
+
+✅ Agentic AI Concepts
+
+✅ ResearchForge Architecture Deep Dive
+
+✅ Quick Revision Notes
+
+📄 **[Download the Free PDF Guide](docs/GenAI_Interview_Prep.pdf)**
+
+Whether you're preparing for AI Engineer, GenAI, or LLM Application Developer interviews, this guide helps connect theory with the real implementation used in ResearchForge.
+
+---
 ## ⚡ How It Works — Real Example
 
 Let's trace what happens when you type:
@@ -735,10 +758,14 @@ MIT License — free to use, modify, and distribute.
 - [LangSmith](https://smith.langchain.com) — agent tracing and evaluation
 
 ---
+## 👨‍💻 Connect With Me
 
+[🌐 Portfolio](https://vishal-lazrus-portfolio.vercel.app/) • [💼 LinkedIn](https://www.linkedin.com/in/vishal-lazrus/)
+
+---
 <div align="center">
 
-**Keep Learing and keep Growing.**
+**Keep Learning and Keep Growing.**
 
 
 *If this helped you learn something, give it a ⭐ on GitHub!*
